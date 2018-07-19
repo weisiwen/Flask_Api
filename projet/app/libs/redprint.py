@@ -16,4 +16,3 @@ class Redprint:
             endpoint = self.name + '+' + \
             options.pop('endpoint',f.__name__)
             bp.add_url_rule(url_prefix + rule,endpoint,f,**options )
-        
